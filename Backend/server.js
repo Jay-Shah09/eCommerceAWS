@@ -169,7 +169,7 @@ app.use(recipesRouter);
 
 const start = async() => {
     try {
-        await connectDB('mongodb+srv://jayshah06162:jay12345@cluster0.8fd9ltd.mongodb.net/usersDB');
+        await connectDB('mongodb://mongodb:27017/docker-db/usersDB');
         app.listen(3001,console.log(`server is listening on port : 3001`));
     } 
     catch (error) {
