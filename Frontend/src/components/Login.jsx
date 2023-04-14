@@ -90,12 +90,12 @@
 
 // export default Login;
 
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import "../css/Login.css";
 import axios from "axios";
 import { useHistory,Link } from "react-router-dom";
 // import { userContext } from "../App";
-import { Redirect } from "react-router";
+// import { Redirect } from "react-router";
 const Login = () => {
   // const { state, dispatch } = useContext(userContext);
   let history = useHistory();
@@ -165,7 +165,7 @@ const Login = () => {
             </button>
             <br/>
 
-<h2 style={{textAlign:'center',marginTop:'10px',color:'grey'}}></h2>
+{/* <h2 style={{textAlign:'center',marginTop:'10px',color:'grey'}}></h2> */}
 <br/>
 
         <div className="signup">

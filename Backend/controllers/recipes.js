@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-const recipeData=mongoose.createConnection('mongodb://mongodb:27017/docker-db/usersDB',{useNewUrlParser:true,useUnifiedTopology:true});
+const recipeData=mongoose.createConnection('mongodb://mongo-db:27017/usersDB',{useNewUrlParser:true,useUnifiedTopology:true});
 // const recipeSchema= new mongoose.Schema({
 // recipetitle:String,
 // recipeContent:String,
